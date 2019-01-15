@@ -13,6 +13,7 @@ public class ForEach{
             for(int[] x : nums){
               for(int y : x){
                 System.out.println("Value is " + y );
+
                 sum += y;
               }
             }
